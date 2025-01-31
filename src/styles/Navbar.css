@@ -1,0 +1,148 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Navbar Styling */
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+  }
+  
+  /* Left section (Logo + Nav Links) */
+  .navbar-left {
+    display: flex;
+    align-items: center;
+  }
+  
+  .navbar-left .logo {
+    font-size: 26px;
+    font-weight: bold;
+    color: #2d6a4f; /* Pitch Green */
+    margin-right: 30px;
+    text-decoration: none;
+  }
+  
+  .nav-links {
+    display: flex;
+    list-style: none;
+  }
+  
+  .nav-links li {
+    margin-right: 20px;
+  }
+  
+  .nav-links li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
+    transition: color 0.3s ease;
+  }
+  
+  .nav-links li a:hover {
+    color: #2d6a4f; /* Pitch Green */
+  }
+  
+  /* Right section (Search + Account + Cart + Country Selector) */
+  .navbar-right {
+    display: flex;
+    align-items: center;
+  }
+  
+  .search-bar {
+    padding: 8px 12px;
+    margin-right: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 14px;
+    width: 250px;
+    transition: border 0.3s ease;
+  }
+  
+  .search-bar:focus {
+    border-color: #2d6a4f; /* Pitch Green */
+    outline: none;
+  }
+  
+  .account-icon {
+    margin-right: 20px;
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
+  }
+  
+  .account-icon:hover {
+    color: #2d6a4f; /* Pitch Green */
+  }
+  
+  .cart-icon {
+    margin-right: 20px;
+    text-decoration: none;
+  }
+  
+  .cart-icon-img {
+    width: 25px;
+    height: 25px;
+  }
+  
+  .country-selector {
+    padding: 8px 12px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: white;
+    color: #333;
+    font-size: 14px;
+  }
+  
+  .country-selector option {
+    padding: 8px;
+  }
+  
+  /* Bottom Navbar Styling */
+  .bottom-navbar {
+    background-color: #f8f8f8;
+    padding: 10px 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-top: 1px solid #ddd;
+  }
+  
+  .bottom-nav-links {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+  }
+  
+  .bottom-nav-links li {
+    margin: 0 30px;
+  }
+  
+  .bottom-nav-links li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
+    transition: color 0.3s ease;
+  }
+  
+  .bottom-nav-links li a:hover {
+    color: #2d6a4f; /* Pitch Green */
+  }
+  
+  .cart-icon {
+    margin-right: 20px;
+    text-decoration: none;
+  }
+  
+  .cart-icon-img {
+    width: 25px; /* Adjust the width as needed */
+    height: 25px; /* Adjust the height as needed */
+  }
+  
