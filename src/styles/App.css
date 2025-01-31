@@ -1,0 +1,9 @@
+/* Basic styling for the App */
+.App {
+    background-color: #f0f0f0; /* Light gray background */
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
