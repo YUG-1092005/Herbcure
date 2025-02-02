@@ -6,6 +6,7 @@ import AboutPage from "./Components/About/about";
 import SignupPage from "./Components/SignUp/signup";
 import ContactPage from "./Components/Contact/contact";
 import ShopPage from "./Components/Shop/shop";
+import PlantGallery from "./Components/PlantGallery/plant"
 
 const AppRoutes = () => {
   const [loading, setLoading] = useState(false);
@@ -29,6 +30,7 @@ const AppRoutes = () => {
             <Route path="/herbcure/signup" element={<SignupPage />} />
             <Route path="/herbcure/contactus" element={<ContactPage />} />
             <Route path="/herbcure/shop" element={<ShopPage />} />
+            <Route path="/plant-info" element={<PlantGallery />} />
           </Routes>
         </>
       )}

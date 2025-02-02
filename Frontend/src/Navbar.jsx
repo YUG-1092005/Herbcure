@@ -51,10 +51,13 @@ const Navbar = () => {
       <nav className="bottom-navbar">
         <ul className="bottom-nav-links">
           <li>
-            <a href="/shop">Shopping</a>
+            <Link to={"/shop"}>Shopping</Link>
           </li>
           <li>
-            <a href="/plant-info">Information Plant</a>
+            <Link to={"herbcure/plant-info/aloevera"}>Information Plant</Link>
+          </li>
+          <li>
+            <Link to={"/plant-info"}>View in 3D</Link>
           </li>
         </ul>
       </nav>
